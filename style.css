@@ -1,22 +1,39 @@
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
-body {background-color: #cde4f9; 
+/*obecně */
+
+body {background-color: #cde4f9; font-size: 20px;
     
 }
 
-header, section, footer {background-color: white;
+/*nastavení sekcí*/
+
+header, section, footer {background-color:#ffffff;
 }
 
-
+/*nadpisy a písmo*/
 
 h1, h2, h3 {font-family: "Playfair Display", sans-serif; 
     line-height: 1.2px;}
 
-p {font-family: "Source Sans 3", sans-serif;
-    font-size: 20px; 
+h1{font-size: 48px;}
+h2{font-size: 32px;}
+h3{font-size: 24px; color: #dc6aa1; padding-top: 48px;}
+
+p {font-family: "Source Sans 3", sans-serif; 
     line-height: 1.4;}
 
-h1{font-size: 48px;}
 
+/*hlavička*/
+
+.autor{color:#dc6aa1; text-align: center;}
+.perex{color: #808080; font-size: 24px;}
 .pariz img{width: 300px; border-radius: 50%;}
+
+/*obrázky*/
+
+img {height: 225px; width: 300px; border-radius: 8px;}
+.eiffel, .louvre img {float: right;}
+.oblouk, .montr img {float: left;}
+.oazy img {margin: 20px 0; width: max-content; height: max-content; border-radius: 8px;}
