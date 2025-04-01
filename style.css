@@ -1,19 +1,22 @@
 html { box-sizing: border-box; }
 *, ::before, ::after { box-sizing: inherit; }
 
-body {
+body {background-color: #cde4f9; 
+    
+}
 
+header, section, footer {background-color: white;
 }
 
 
-h1, h2, h3 {font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;}
 
-p{
-    font-family: "Source Sans 3", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
+h1, h2, h3 {font-family: "Playfair Display", sans-serif; 
+    line-height: 1.2px;}
+
+p {font-family: "Source Sans 3", sans-serif;
+    font-size: 20px; 
+    line-height: 1.4;}
+
+h1{font-size: 48px;}
+
+.pariz img{width: 300px; border-radius: 50%;}
