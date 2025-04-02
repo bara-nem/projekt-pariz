@@ -34,7 +34,21 @@ p {font-family: "Source Sans 3", sans-serif;
 
 .autor{color:#dc6aa1; text-align: center;}
 .perex{color: #808080; font-size: 24px; font-style: italic; text-align: center;}
-.pariz img{width: 300px; height: 300px; border-radius: 50%; }
+.pariz img{width: 300px; height: 300px; border-radius: 50%;}
+
+.pariz {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 300px; 
+    margin: 0 auto; 
+}
+
+.pariz img {
+    max-width: 100%; /* Zajistí, že obrázek se nebude překrývat s rodičovským divem */
+    height: auto; /* Zachová proporce obrázku */
+}
+
 
 /*obrázky*/
 
